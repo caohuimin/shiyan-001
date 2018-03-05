@@ -1,0 +1,99 @@
+/*login css 主要针对一些不同分辨率得屏幕做处理  还有就是一些默认的样式处理*/
+body,html{
+	height: 100%;
+}
+.form-horizontal-login{
+	height: 100%;
+	background-color:#00FFCC;
+	background: -webkit-linear-gradient(-60deg,#00FFCC,#00CCCC,#00FFCC);
+	color: black;
+	background: url(../img/bg.jpg);
+	-webkit-animation:10s changBg linear infinite;
+}
+@-webkit-keyframes changBg{
+	0%{background: url(../img/bg.jpg);}
+	25%{background: url(../img/bg.jpg) 50% 50%;}
+	50%{background: url(../img/bg.jpg) 100% 100%;}
+	75%{background: url(../img/bg.jpg) 50% 50%;}
+	100%{background: url(../img/bg.jpg);}
+}
+@-o-keyframes changBg{
+	0%{background: url(../img/bg.jpg);}
+	50%{background: url(../img/bg.jpg) 50% 50%;}
+	50%{background: url(../img/bg.jpg) 100% 100%;}
+	75%{background: url(../img/bg.jpg) 50% 50%;}
+	100%{background: url(../img/bg.jpg);}
+}
+@-moz-keyframes changBg{
+	0%{background: url(../img/bg.jpg);}
+	50%{background: url(../img/bg.jpg) 50% 50%;}
+	50%{background: url(../img/bg.jpg) 100% 100%;}
+	75%{background: url(../img/bg.jpg) 50% 50%;}
+	100%{background: url(../img/bg.jpg);}
+}
+@keyframes changBg{
+	0%{background: url(../img/bg.jpg);}
+	25%{background: url(../img/bg.jpg) 25% 25%;}
+	50%{background: url(../img/bg.jpg) 100% 100%;}
+	75%{background: url(../img/bg.jpg) 25% 25%;}
+	100%{background: url(../img/bg.jpg);}
+}
+.form-horizontal-login a,.form-horizontal-login a:focus{
+	color: black;
+	text-decoration:none;
+}
+.login-header-p{
+	margin: 10px;
+}
+.form-horizontal-login h1{
+	font-family: 华文行楷;
+	text-align: center;
+	color: black;
+}
+@media only screen and (min-width: 568px) and (max-width: 1640px){
+	.form-horizontal-login h1{
+		font-size: 140px;
+		text-shadow: 0px 10px 5px gray;
+		
+	}
+	
+}
+@media only screen and (min-width: 0px) and (max-width: 768px){
+	.form-horizontal-login h1{
+		font-size: 50px;
+		text-shadow: 0px 2px 5px black;
+	}
+	
+}
+.form-horizontal-login .form-horizontal h3{
+	text-align: center;
+	font-family: 微软雅黑;
+	font-size: 30px;
+	text-shadow: 1px 1px 5px black;
+}
+.form-horizontal-login a:hover{
+	color: #CC0000;
+}
+.form-horizontal-login footer{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.form-horizontal-login .img-show{
+	background-color: #DDDDDD;
+	color: black;
+}
+
+.form-horizontal-login .clear-patterReg{
+	margin: 0px;
+	padding: 0px 4px 0px 0px;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+}
+.form-horizontal-login .form-group .clearDefaultPadding{
+	padding: 0px !important;
+	text-align: center;
+	height: 34px;
+	line-height: 34px;
+}

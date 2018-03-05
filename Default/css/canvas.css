@@ -1,0 +1,40 @@
+.navbar{
+	margin-bottom: 10px !important;
+}
+.container-canvas{
+	padding:0px !important;
+	margin:0px !important;
+	position: relative;
+
+}
+.container-canvas .col-lg-6{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin:auto;
+	height: 40px;
+	width: 300px;
+	padding:0px !important; 
+}
+@media only screen and (min-width:1600px) and (max-width: 2040px){
+	.container-canvas{
+	height: 400px;
+	overflow: hidden;
+	}
+	.form-control{
+	height: 40px !important;
+	width: 300px !important;
+	}
+}
+@media only screen and (min-width:768px) and (max-width: 1600px){
+	.container-canvas{
+	height: 300px;
+	overflow: hidden;
+	}	
+	.form-control{
+	height: 40px !important;
+	width: 300px !important;
+	}
+}
